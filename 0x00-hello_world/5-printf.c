@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
 * function_name - string printer
 * @parameterx: Description of parameter x
