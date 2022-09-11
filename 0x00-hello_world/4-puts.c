@@ -1,11 +1,13 @@
+#include <stdio.h>.
 /**
- *funcion_name - puts.c
- *Description: This program prints the string "Programming is like building a multilingual puzzle"
+ *main - puts.c
+ *
+ *Description: Using the puts function to print the a string of char
+ * prints the string "Programming is like building a multilingual puzzle"
  */
-#include <stdio.h>
 
 int main(void)
 {
-  puts("\"Programming is like building a multilingual puzzle");
-  return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
