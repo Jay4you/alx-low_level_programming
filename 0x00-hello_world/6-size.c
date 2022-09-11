@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - display data sizes
  *
@@ -6,7 +7,7 @@
  * writes a program the prints the size of data type
  * Return: return 0
  */
-int main (void)
+int main(void)
 {
 char c;
 int i;
@@ -14,6 +15,7 @@ long l;
 long long ll;
 small s;
 float f;
+ 
 printf("A char is: %cls byte(s)\n", sizeof(c);
 printf("An int is : %cls byte(s)\n", sizeof(i);
 printf("A long is: %cls byte(s)\n" sizeof(l);
