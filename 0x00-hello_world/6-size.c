@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - display data sizes
@@ -13,14 +13,14 @@ char c;
 int i;
 long l;
 long long ll;
-small s;
+double db;
 float f;
  
-printf("A char is: %cls byte(s)\n", sizeof(c);
-printf("An int is : %cls byte(s)\n", sizeof(i);
-printf("A long is: %cls byte(s)\n" sizeof(l);
-printf("A long long is: %cls byte(s)\n", sizeof(ll);
-printf("A small is: %cls byte(s)\n" sizeof(s);
-printf("A float is: %cls byte(s)\n", sizeof(f);
+ printf("A char is: %cls byte(s)\n", sizeof(c));
+ printf("An int is : %cls byte(s)\n", sizeof(i));
+ printf("A long is: %cls byte(s)\n" sizeof(l));
+ printf("A long long is: %cls byte(s)\n", sizeof(ll));
+ printf("A small is: %cls byte(s)\n" sizeof(db));
+ printf("A float is: %cls byte(s)\n", sizeof(f));
        return (0);
 }
