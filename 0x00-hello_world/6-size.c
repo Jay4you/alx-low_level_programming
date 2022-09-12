@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /**
  * main - display data sizes
  *
@@ -10,7 +9,7 @@
 int main(void)
 {
 char c;
-int i
+int i;
 long l;
 long long ll;
 float f;
