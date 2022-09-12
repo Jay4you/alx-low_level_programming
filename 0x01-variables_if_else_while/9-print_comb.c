@@ -11,7 +11,7 @@ int i;
 for (i = '0'; i <= '7'; i++)
 {
 putchar(i);
-if (c != '7')
+if (i != '7')
 {
 putchar(',');
 putchar(',');
