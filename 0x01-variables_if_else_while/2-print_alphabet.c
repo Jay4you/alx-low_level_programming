@@ -6,14 +6,14 @@
  * Return: Return 0
  */
 
-char main(void)
-{
+int main(void)
+
 	char low;
-	
+{	
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
-		putchar("\n")
+		putchar("\n");
 	}
 	
 	return (0);
