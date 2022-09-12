@@ -14,7 +14,7 @@ putchar(i);
 if (i != '7')
 {
 putchar(',');
-putchar(',');
+putchar(' ');
 }
 }
 printf("\n");
