@@ -9,10 +9,10 @@
  */
 int add(int a, int b)
 {
+int c;
 a = 10;
 b = 5;
-int c;
 c = a + b;
-_putchar("The sum of %d and %d is %d", &a, &b, &c);
+_putchar("the sum od 10 and 5 is %d", &c);
 return(0);
 }
