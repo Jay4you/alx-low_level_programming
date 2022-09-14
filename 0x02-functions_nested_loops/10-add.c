@@ -9,10 +9,7 @@
  */
 int add(int a, int b)
 {
-int c;
-a = 10;
-b = 5;
-c = a + b;
-_putchar(c);
-return(0);
+a = 89;
+b = 9;
+return(a + b);
 }
