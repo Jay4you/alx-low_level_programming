@@ -13,6 +13,6 @@ int c;
 a = 10;
 b = 5;
 c = a + b;
-_putchar("the sum od 10 and 5 is %d", &c);
+_putchar(c);
 return(0);
 }
