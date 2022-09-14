@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - print alphabets 10x
+ * print_alphabet_x10 - print alphabets 10x
  *
  * Return: Always 0
  */
@@ -15,5 +15,6 @@ for (l = 'a'; l <= 'z'; l++)
 _putchar(l);
 }
 _putchar(i);
+_putchar('\n');
 }
 }
