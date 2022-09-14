@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  print_sign - function to print sign of a numberr
+ * print_sign - function to print sign of a numberr
  *
- *  @n: int argument 
- *  Return: Always 0
+ * @n: int argument
+ * Return: Always 0
  */
 int print_sign(int n)
 {
