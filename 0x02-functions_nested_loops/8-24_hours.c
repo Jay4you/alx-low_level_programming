@@ -12,7 +12,7 @@ int min = 0;
 int min_rem;
 while (hrs <= 23)
 {
-while (min <= 56)
+while (min <= 59)
 {
 min_rem = min % 10;
 hrs_rem = hrs % 10;
