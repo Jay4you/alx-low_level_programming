@@ -18,7 +18,7 @@ len++;
 }
 for (i = 0; src[i]; i++)
 {
-dest[len] = src[i];
+dest[len++] = src[i];
 }
 return (dest);
 }
