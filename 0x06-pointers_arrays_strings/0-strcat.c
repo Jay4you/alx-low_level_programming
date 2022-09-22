@@ -11,18 +11,14 @@
 char *_strcat(char *dest, char *src)
 {
 //get the length of dest first
-int len = 0;
-while (*str != '\0')
+int i = 0, len = 0;
+while (dest[i++])
 {
 len++;
-str++;
 }
-i = 0;
-while (src != '\0')
+for (i = 0; src[i]; i++)
 {
-dest = src;
-len++;
-i++;
+dest[len] = src[i];
 }
 return (dest);
 }
