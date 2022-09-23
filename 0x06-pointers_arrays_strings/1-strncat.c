@@ -1,18 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strncat - function entry
- *
- *@dest: arg
- *@src: arg
- *@n: in arg
- *Description: function to concat two strings
- *Return: char
- */
-
+*_strncat - function entry
+*
+*@dest: arg
+*@src: arg
+*@n: in arg
+*Description: function to concat two strings
+*Return: char
+*/
 char *_strncat(char *dest, char *src, int n)
 {
-int index = 0, dest_len =0;
+int index = 0, dest_len = 0;
 while (dest[index++])
 dest_len++;
 for (index = 0; src[index] && index < n; index++)
