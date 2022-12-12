@@ -7,12 +7,13 @@
  * Return: Return 0
  */ 
 int main(void)
-{ int i;
- for (i = '10'; i <= '99'; i++)
 {
-putchar(i);
-}
-putchar(',');
-putchar(' ');
-return (0);
+	int i;
+	for (i = '10'; i <= '99'; i++)
+	{
+		putchar(i);
+		putchar(',');
+		puthchar(' ');
+	}
+	return (0);
 }
