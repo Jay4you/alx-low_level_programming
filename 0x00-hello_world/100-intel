@@ -1,0 +1,2 @@
+#!/bin/bash
+echo 'gcc -o $CFILE.s -S' > $CFILE.c
