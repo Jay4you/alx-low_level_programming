@@ -5,13 +5,14 @@
  * main - prints the largest of 3 int
  * Return: 0
  */
+int largest_number(int a, int b, int c);
 int main(void)
 {
-int a, b, c;
+int a, b, c, largest;
 a = 972;
 b = -98;
 c = 0;
-int largest = largest_number(a, b, c);
+largest = largest_number(a, b, c);
 printf("%d is the largest number\n", largest);
 return (0);
 }
