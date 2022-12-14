@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include "holberton.h"
 #include "main.h"
 
 /**
  * main - prints the largest of 3 int
  * Return: 0
  */
-int largest_number(int a, int b, int c);
 int main(void)
 {
-int a, b, c, largest;
+int a, b, c;
+int largest;
 a = 972;
 b = -98;
 c = 0;
