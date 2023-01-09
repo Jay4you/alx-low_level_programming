@@ -1,12 +1,21 @@
 #include <stdio.h>
 /**
  * main - function
- * Description : Program that prints number of arguments
- * @argc: argument
+ * Description : Program that prints its namiiiiiiie
+ * @argc: argumentiiiiii
+ * @argv: agm
  * Return: 0 Always
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+
+	if (argv)
+	{
+		printf("%d\n", argc);
+	}
+	else
+	{
+		printf("%d\n", argc);
+	}
 	return (0);
 }
