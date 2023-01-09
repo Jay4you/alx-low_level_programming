@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 		if (argc == 1)
 		{
 			printf("%d\n", nNum);
+			return (0);
 		}
 		else if (atoi(argv[i]) >= 1)
 		{
